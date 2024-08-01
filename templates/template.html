@@ -170,14 +170,14 @@
                 <thead>
                   <tr>
                     <th>Service</th>
-                    <th>Remote Management?</th>
+                    <!-- <th>Remote Management?</th> -->
                   </tr>
                 </thead>
                 <tbody>
                   {% for profile in p.profiles %}
                   <tr>
                     <td>{{services[profile.service_id].name}}</td>
-                    <td>{{ 'Yes' if profile.type == 'remote_management' else 'No' }}</td>
+                    <!-- <td>{{ 'Yes' if profile.type == 'remote_management' else 'No' }}</td> -->
                   </tr>
                   {% endfor %}
                 </tbody>
