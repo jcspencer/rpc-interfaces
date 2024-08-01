@@ -654,7 +654,7 @@ INTERFACES = {
             RpcUuid("50ABC2A4-574D-40B3-9D66-EE4FD5FBA076", "dnsserver")
         ],
         [
-            RpcNamedPipe("\\pipe\\dnsserver")
+            RpcNamedPipe("\\\\pipe\\dnsserver")
         ]
     ),
 
@@ -695,7 +695,7 @@ INTERFACES = {
             # maybe 51b836e8-484d-4d03-b0fc-22e265cb3f7b too
         ],
         [
-            RpcNamedPipe("\\pipe\\lsarpc")
+            RpcNamedPipe("\\\\pipe\\lsarpc")
         ]
     ),
 
@@ -736,8 +736,8 @@ INTERFACES = {
             RpcUuid("C681D488-D850-11D0-8C52-00C04FD90F7E", "lsarpc"),
         ],
         [
-            RpcNamedPipe("\\pipe\\efsrpc"),
-            RpcNamedPipe("\\pipe\\lsarpc")
+            RpcNamedPipe("\\\\pipe\\efsrpc"),
+            RpcNamedPipe("\\\\pipe\\lsarpc")
         ]
     ),
 
@@ -758,7 +758,7 @@ INTERFACES = {
             RpcUuid("82273FDC-E32A-18C3-3F78-827929DC23EA", "eventlog"),
         ],
         [
-            RpcNamedPipe("\\pipe\\eventlog")
+            RpcNamedPipe("\\\\pipe\\eventlog")
         ]
     ),
 
@@ -819,7 +819,7 @@ INTERFACES = {
             RpcUuid("EA0A3165-4834-11D2-A6F8-00C04FA346CC", "sharedfax"),
         ],
         [
-            RpcNamedPipe("\\pipe\\sharefax")
+            RpcNamedPipe("\\\\pipe\\sharefax")
         ]
     ),
 
@@ -954,7 +954,7 @@ INTERFACES = {
             RpcUuid("A8E0653C-2744-4389-A61D-7373DF8B2292", "FileServerVssAgent"),
         ],
         [
-            RpcNamedPipe("\\pipe\\FssagentRpc")
+            RpcNamedPipe("\\\\pipe\\FssagentRpc")
         ]
     ),
 
@@ -995,7 +995,7 @@ INTERFACES = {
             RpcUuid("91AE6020-9E3C-11CF-8D7C-00AA00C091BE", "ICertPassage"),
         ],
         [
-            RpcNamedPipe("\\pipe\\cert")
+            RpcNamedPipe("\\\\pipe\\cert")
         ]
     ),
 
@@ -1084,7 +1084,7 @@ INTERFACES = {
             RpcUuid("82AD4280-036B-11CF-972C-00AA006887B0", "inetinfo"),
         ],
         [
-            RpcNamedPipe("\\pipe\\inetinfo")
+            RpcNamedPipe("\\\\pipe\\inetinfo")
         ]
     ),
 
@@ -1189,7 +1189,7 @@ INTERFACES = {
             RpcUuid("12345778-1234-ABCD-EF00-0123456789AB", "lsarpc")
         ],
         [
-            RpcNamedPipe("\\pipe\\lsarpc")
+            RpcNamedPipe("\\\\pipe\\lsarpc")
         ]
     ),
 
@@ -1332,7 +1332,7 @@ INTERFACES = {
             RpcUuid("12345678-1234-ABCD-EF00-01234567CFFB", "logon"),
         ],
         [
-            RpcNamedPipe("\\pipe\\netlogon")
+            RpcNamedPipe("\\\\pipe\\netlogon")
         ]
     ),
 
@@ -1439,7 +1439,7 @@ INTERFACES = {
             RpcUuid("DA5A86C5-12C2-4943-AB30-7F74A813D853", "PerflibV2"),
         ],
         [
-            RpcNamedPipe("\\pipe\\winreg")
+            RpcNamedPipe("\\\\pipe\\winreg")
         ]
     ),
 
@@ -1499,7 +1499,7 @@ INTERFACES = {
             RpcUuid("0B1C2170-5732-4E0E-8CD3-D9B16F3B84D7", "authzr"),
         ],
         [
-            RpcNamedPipe("\\pipe\\lsass")
+            RpcNamedPipe("\\\\pipe\\lsass")
         ]
     ),
 
@@ -1568,7 +1568,7 @@ INTERFACES = {
             RpcUuid("811109BF-A4E1-11D1-AB54-00A0C91E9B45", "winsi2"),
         ],
         [
-            RpcNamedPipe("\\pipe\\winspipe")
+            RpcNamedPipe("\\\\pipe\\winspipe")
         ]
     ),
 
@@ -1590,7 +1590,7 @@ INTERFACES = {
             RpcUuid("12345678-1234-ABCD-EF00-0123456789AB", "winspool"),
         ],
         [
-            RpcNamedPipe("\\pipe\\spoolss")
+            RpcNamedPipe("\\\\pipe\\spoolss")
         ]
     ),
 
@@ -1621,7 +1621,7 @@ INTERFACES = {
             RpcUuid("8F09F000-B7ED-11CE-BBD2-00001A181CAD", "dimsvc"),
         ],
         [
-            RpcNamedPipe("\\pipe\\router")
+            RpcNamedPipe("\\\\pipe\\router")
         ]
     ),
 
@@ -1643,7 +1643,7 @@ INTERFACES = {
             RpcUuid("338CD001-2244-31F1-AAAA-900038001003", "winreg"),
         ],
         [
-            RpcNamedPipe("\\pipe\\winreg")
+            RpcNamedPipe("\\\\pipe\\winreg")
         ]
     ),
 
@@ -1701,8 +1701,8 @@ INTERFACES = {
             #RpcUuid("76f226c3-ec14-4325-8a99-6a46348418ae") # TODO: CONFIRM
         ],
         [
-            RpcNamedPipe("\\pipe\\InitShutdown"),
-            RpcNamedPipe("\\pipe\\winreg")
+            RpcNamedPipe("\\\\pipe\\InitShutdown"),
+            RpcNamedPipe("\\\\pipe\\winreg")
         ]
     ),
 
@@ -1724,8 +1724,8 @@ INTERFACES = {
             RpcUuid("12345778-1234-ABCD-EF00-0123456789AC", "samr"),
         ],
         [
-            RpcNamedPipe("\\pipe\\samr"),
-            RpcNamedPipe("\\pipe\\lsass")
+            RpcNamedPipe("\\\\pipe\\samr"),
+            RpcNamedPipe("\\\\pipe\\lsass")
         ]
     ),
 
@@ -1769,7 +1769,7 @@ INTERFACES = {
             #TODO: maybe 367aeb81-9844-35f1-ad32-98f038001003
         ],
         [
-            RpcNamedPipe("\\pipe\\svcctl")
+            RpcNamedPipe("\\\\pipe\\svcctl")
         ]
     ),
 
@@ -1794,7 +1794,7 @@ INTERFACES = {
             RpcUuid("1a0d010f-1c33-432c-b0f5-8cf4e8053099", "srvsvc.dll", True)
         ],
         [
-            RpcNamedPipe("\\pipe\\srvsvc")
+            RpcNamedPipe("\\\\pipe\\srvsvc")
         ]
     ),
 
@@ -1862,7 +1862,7 @@ INTERFACES = {
             RpcUuid("2F5F6520-CA46-1067-B319-00DD010662DA", "tapsrv"),
         ],
         [
-            RpcNamedPipe("\\pipe\\tapsrv")
+            RpcNamedPipe("\\\\pipe\\tapsrv")
         ]
     ),
 
@@ -1891,7 +1891,7 @@ INTERFACES = {
             RpcUuid("3a9ef155-691d-4449-8d05-09ad57031823", "schedsvc.dll", True),
         ],
         [
-            RpcNamedPipe("\\pipe\\atsvc"),
+            RpcNamedPipe("\\\\pipe\\atsvc"),
             # TODO: confirm 'sasec'
         ]
     ),
@@ -2054,8 +2054,8 @@ INTERFACES = {
             RpcUuid("8FB6D884-2388-11D0-8C35-00C04FDA2795", "W32Time"),
         ],
         [
-            RpcNamedPipe("\\pipe\\W32TIME"),
-            RpcNamedPipe("\\pipe\\W32TIME_ALT")
+            RpcNamedPipe("\\\\pipe\\W32TIME"),
+            RpcNamedPipe("\\\\pipe\\W32TIME_ALT")
         ]
     ),
 
@@ -2125,7 +2125,7 @@ INTERFACES = {
             RpcUuid("7f1343fe-50a9-4927-a778-0c5859517bac", "wkssvc.dll", True),
         ],
         [
-            RpcNamedPipe("\\pipe\\wkssvc")
+            RpcNamedPipe("\\\\pipe\\wkssvc")
         ]
     ),
 
@@ -2259,7 +2259,7 @@ INTERFACES = {
             RpcUuid("E33C0CC4-0482-101A-BC0C-02608C6BA218", "LocToLoc"),
         ],
         [
-            RpcNamedPipe("\\pipe\\Locator")
+            RpcNamedPipe("\\\\pipe\\Locator")
         ]
     ),
 

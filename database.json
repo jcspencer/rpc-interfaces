@@ -1292,7 +1292,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\dnsserver",
+                    "path": "\\\\pipe\\dnsserver",
                     "description": null,
                     "undocumented": false
                 }
@@ -1349,7 +1349,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\lsarpc",
+                    "path": "\\\\pipe\\lsarpc",
                     "description": null,
                     "undocumented": false
                 }
@@ -1396,12 +1396,12 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\efsrpc",
+                    "path": "\\\\pipe\\efsrpc",
                     "description": null,
                     "undocumented": false
                 },
                 {
-                    "path": "\\pipe\\lsarpc",
+                    "path": "\\\\pipe\\lsarpc",
                     "description": null,
                     "undocumented": false
                 }
@@ -1430,7 +1430,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\eventlog",
+                    "path": "\\\\pipe\\eventlog",
                     "description": null,
                     "undocumented": false
                 }
@@ -1510,7 +1510,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\sharefax",
+                    "path": "\\\\pipe\\sharefax",
                     "description": null,
                     "undocumented": false
                 }
@@ -1857,7 +1857,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\FssagentRpc",
+                    "path": "\\\\pipe\\FssagentRpc",
                     "description": null,
                     "undocumented": false
                 }
@@ -1909,7 +1909,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\cert",
+                    "path": "\\\\pipe\\cert",
                     "description": null,
                     "undocumented": false
                 }
@@ -2042,7 +2042,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\inetinfo",
+                    "path": "\\\\pipe\\inetinfo",
                     "description": null,
                     "undocumented": false
                 }
@@ -2317,7 +2317,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\lsarpc",
+                    "path": "\\\\pipe\\lsarpc",
                     "description": null,
                     "undocumented": false
                 }
@@ -2494,7 +2494,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\netlogon",
+                    "path": "\\\\pipe\\netlogon",
                     "description": null,
                     "undocumented": false
                 }
@@ -2645,7 +2645,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\winreg",
+                    "path": "\\\\pipe\\winreg",
                     "description": null,
                     "undocumented": false
                 }
@@ -2772,7 +2772,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\lsass",
+                    "path": "\\\\pipe\\lsass",
                     "description": null,
                     "undocumented": false
                 }
@@ -2882,7 +2882,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\winspipe",
+                    "path": "\\\\pipe\\winspipe",
                     "description": null,
                     "undocumented": false
                 }
@@ -2911,7 +2911,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\spoolss",
+                    "path": "\\\\pipe\\spoolss",
                     "description": null,
                     "undocumented": false
                 }
@@ -2975,7 +2975,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\router",
+                    "path": "\\\\pipe\\router",
                     "description": null,
                     "undocumented": false
                 }
@@ -3004,7 +3004,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\winreg",
+                    "path": "\\\\pipe\\winreg",
                     "description": null,
                     "undocumented": false
                 }
@@ -3116,12 +3116,12 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\InitShutdown",
+                    "path": "\\\\pipe\\InitShutdown",
                     "description": null,
                     "undocumented": false
                 },
                 {
-                    "path": "\\pipe\\winreg",
+                    "path": "\\\\pipe\\winreg",
                     "description": null,
                     "undocumented": false
                 }
@@ -3150,12 +3150,12 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\samr",
+                    "path": "\\\\pipe\\samr",
                     "description": null,
                     "undocumented": false
                 },
                 {
-                    "path": "\\pipe\\lsass",
+                    "path": "\\\\pipe\\lsass",
                     "description": null,
                     "undocumented": false
                 }
@@ -3222,7 +3222,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\svcctl",
+                    "path": "\\\\pipe\\svcctl",
                     "description": null,
                     "undocumented": false
                 }
@@ -3265,7 +3265,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\srvsvc",
+                    "path": "\\\\pipe\\srvsvc",
                     "description": null,
                     "undocumented": false
                 }
@@ -3350,7 +3350,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\tapsrv",
+                    "path": "\\\\pipe\\tapsrv",
                     "description": null,
                     "undocumented": false
                 }
@@ -3404,7 +3404,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\atsvc",
+                    "path": "\\\\pipe\\atsvc",
                     "description": null,
                     "undocumented": false
                 }
@@ -3790,12 +3790,12 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\W32TIME",
+                    "path": "\\\\pipe\\W32TIME",
                     "description": null,
                     "undocumented": false
                 },
                 {
-                    "path": "\\pipe\\W32TIME_ALT",
+                    "path": "\\\\pipe\\W32TIME_ALT",
                     "description": null,
                     "undocumented": false
                 }
@@ -3885,7 +3885,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\wkssvc",
+                    "path": "\\\\pipe\\wkssvc",
                     "description": null,
                     "undocumented": false
                 }
@@ -4135,7 +4135,7 @@
             ],
             "named_pipes": [
                 {
-                    "path": "\\pipe\\Locator",
+                    "path": "\\\\pipe\\Locator",
                     "description": null,
                     "undocumented": false
                 }
