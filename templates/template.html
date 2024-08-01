@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://unpkg.com/concrete.css@2.1.1/concrete.css">
     <meta name="theme-color" content="#ffffff">
     <style>
+        main {
+            max-width: 80rem;
+        }
+
         ul.table-of-contents {
             height: 500px;
             display: flex;
@@ -137,15 +141,24 @@
             <table>
                 <thead>
                   <tr>
-                    <th>UUID</th>
+                    <th>Type</th>
+                    <th>Interface</th>
                     <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   {% for uuid in p.uuids %}
                   <tr>
+                    <td>DCE/RPC</td>
                     <td>{{uuid.uuid}}</td>
                     <td>{{uuid.name}}</td>
+                  </tr>
+                  {% endfor %}
+                  {% for pipe in p.named_pipes %}
+                  <tr>
+                    <td>Named Pipe</td>
+                    <td>{{pipe.path}}</td>
+                    <td>{{pipe.description}}</td>
                   </tr>
                   {% endfor %}
                 </tbody>
