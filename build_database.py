@@ -8,4 +8,4 @@ data = {
 }
 
 with open('database.json', 'w') as f:
-    json.dump(data, f, default=vars)
+    json.dump(data, f, default=vars, indent=4)
