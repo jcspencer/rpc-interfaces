@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="windows, rpc, reference">
+    <meta name="author" content="James Spencer">
+    <meta name="description" content="A simple and to the point classless CSS stylesheet">
+    <title>Windows RPC Interface Database - @jcspencer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/concrete.css@2.1.1/concrete.css">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        ul.table-of-contents {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            padding: 8rem 0;
+        }
+
+        figure.highlight {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .row .column {
+            display: block;
+            flex: 1 1 auto;
+            margin-left: 0;
+            max-width: 100%;
+            width: 100%;
+        }
+
+        @media (min-width: 40.0rem) {
+            .row {
+                flex-direction: row;
+                margin: 0 -1rem;
+                width: calc(100% + 2rem);
+            }
+
+            .row .column {
+                margin-bottom: inherit;
+                padding: 0 1.0rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Windows RPC Interface Database</h1>
+            <p>A simple database of Windows RPC interfaces, by <a href="https://github.com/jcspencer">James Spencer</a></p>
+            <p>
+                <a href="https://github.com/jcspencer/rpc-interfaces"><button>GitHub</button></a>   
+            </p>
+        </header>
+
+        <section>
+            <h1>Protocols by Service</h1>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Role/Feature</th>
+                    <th>Type</th>
+                    <th>Protocols</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for service in services.keys() %}
+                  {% set s = services[service] %}
+                  <tr>
+                    <td>{{s.name}}</td>
+                    <td>{{s.path[0]}}</td>
+                    <td>
+                        <ul>
+                            {% for protocol in protocols.keys() %}
+                                {% set p = protocols[protocol] %}
+                                {% if p.profiles and p.profiles|length > 0 %}
+                                    {% for profile in p.profiles %}
+                                        {% if s.id == profile.service_id %}
+                                        <li>
+                                            <abbr title="{{p.metadata.name}}">
+                                                <a href="#{{p.id}}">{{p.id}}</a>
+                                            </abbr>
+                                        </li>
+                                        {% endif %}
+                                    {% endfor%}
+                                {% endif%}
+                            {% endfor %}
+                        </ul>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h1>Protocols</h1>
+            <ul class="table-of-contents">
+            {% for protocol in protocols.keys() %}
+                {% set p = protocols[protocol] %}
+                <li>
+                    <abbr title="{{p.metadata.name}}">
+                        <a href="#{{p.id}}">{{p.id}}</a>
+                    </abbr>
+                </li>
+            {% endfor %}
+            </ul>
+        </section>
+
+        {% for protocol in protocols.keys()|sort %}
+        <section id="{{protocols[protocol].id}}">
+            {% set p = protocols[protocol] %}
+            <h2>{{p.id}}: {{p.metadata.name}}</h2>
+            <a href="{{p.metadata.url}}"><button>{{p.id}} Specification</button></a>
+            <p>
+                {{p.metadata.description}}
+            </p>
+
+            <h3>RPC Interface Definitions</h3>
+            <table>
+                <thead>
+                  <tr>
+                    <th>UUID</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for uuid in p.uuids %}
+                  <tr>
+                    <td>{{uuid.uuid}}</td>
+                    <td>{{uuid.name}}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+            </table>
+
+            {% if p.profiles and p.profiles|length > 0 %}
+            <h3>Associated Roles/Features</h3>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th>Remote Management?</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for profile in p.profiles %}
+                  <tr>
+                    <td>{{services[profile.service_id].name}}</td>
+                    <td>{{ 'Yes' if profile.type == 'remote_management' else 'No' }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </section>
+        {% endfor %}
+</body>
+
+</html>
