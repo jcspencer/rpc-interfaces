@@ -3299,7 +3299,7 @@
             },
             "profiles": [
                 {
-                    "service_id": "builtin:remoteshutdown",
+                    "service_id": "builtin:virtualsmartcard",
                     "type": "remote_management"
                 }
             ],
@@ -4728,6 +4728,15 @@
             "name": "Task Scheduler",
             "description": ""
         },
+        "builtin:virtualsmartcard": {
+            "id": "builtin:virtualsmartcard",
+            "path": [
+                "BuiltIn",
+                "VirtualSmartcard"
+            ],
+            "name": "Virtual Smartcard",
+            "description": ""
+        },
         "builtin:telnet": {
             "id": "builtin:telnet",
             "path": [
@@ -4741,7 +4750,7 @@
             "id": "builtin:time",
             "path": [
                 "BuiltIn",
-                "time"
+                "Time"
             ],
             "name": "Windows Time Service",
             "description": ""

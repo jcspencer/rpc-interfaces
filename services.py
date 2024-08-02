@@ -247,9 +247,9 @@ class ServiceBuiltIn:
     )
 
     VIRTUAL_SMARTCARD = RpcService(
-        'builtin:remoteshutdown',
-        ['BuiltIn', 'RemoteShutdown'],
-        'Remote Shutdown',
+        'builtin:virtualsmartcard',
+        ['BuiltIn', 'VirtualSmartcard'],
+        'Virtual Smartcard',
         ''
     )
 
@@ -262,7 +262,7 @@ class ServiceBuiltIn:
 
     TIME = RpcService(
         'builtin:time',
-        ['BuiltIn', 'time'],
+        ['BuiltIn', 'Time'],
         'Windows Time Service',
         ''
     )
