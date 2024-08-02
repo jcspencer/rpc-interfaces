@@ -4158,212 +4158,212 @@
             "uuids": [
                 {
                     "uuid": "15FC031C-0652-4306-B2C3-F558B8F837E2",
-                    "name": null,
+                    "name": "IVdsServiceSw",
                     "undocumented": false
                 },
                 {
                     "uuid": "4DBCEE9A-6343-4651-B85F-5E75D74D983C",
-                    "name": null,
+                    "name": "IVdsVolumeMF2",
                     "undocumented": false
                 },
                 {
                     "uuid": "1E062B84-E5E6-4B4B-8A25-67B81E8F13E8",
-                    "name": null,
+                    "name": "IVdsVDisk",
                     "undocumented": false
                 },
                 {
                     "uuid": "2ABD757F-2851-4997-9A13-47D2A885D6CA",
-                    "name": null,
+                    "name": "IVdsHbaPort",
                     "undocumented": false
                 },
                 {
                     "uuid": "9CBE50CA-F2D2-4BF4-ACE1-96896B729625",
-                    "name": null,
+                    "name": "IVdsDiskPartitionMF2",
                     "undocumented": false
                 },
                 {
                     "uuid": "4DAA0135-E1D1-40F1-AAA5-3CC1E53221C3",
-                    "name": null,
+                    "name": "IVdsVolumePlex",
                     "undocumented": false
                 },
                 {
                     "uuid": "3858C0D5-0F35-4BF5-9714-69874963BC36",
-                    "name": null,
+                    "name": "IVdsAdvancedDisk3",
                     "undocumented": false
                 },
                 {
                     "uuid": "40F73C8B-687D-4A13-8D96-3D7F2E683936",
-                    "name": null,
+                    "name": "IVdsDisk2",
                     "undocumented": false
                 },
                 {
                     "uuid": "8F4B2F5D-EC15-4357-992F-473EF10975B9",
-                    "name": null,
+                    "name": "IVdsDisk3",
                     "undocumented": false
                 },
                 {
                     "uuid": "FC5D23E8-A88B-41A5-8DE0-2D2F73C5A630",
-                    "name": null,
+                    "name": "IVdsServiceSAN",
                     "undocumented": false
                 },
                 {
                     "uuid": "B07FEDD4-1682-4440-9189-A39B55194DC5",
-                    "name": null,
+                    "name": "IVdsIscsiInitiatorAdapter",
                     "undocumented": false
                 },
                 {
                     "uuid": "72AE6713-DCBB-4A03-B36B-371F6AC6B53D",
-                    "name": null,
+                    "name": "IVdsVolume2",
                     "undocumented": false
                 },
                 {
                     "uuid": "B6B22DA8-F903-4BE7-B492-C09D875AC9DA",
-                    "name": null,
+                    "name": "IVdsServiceUninstallDisk",
                     "undocumented": false
                 },
                 {
                     "uuid": "538684E0-BA3D-4BC0-ACA9-164AFF85C2A9",
-                    "name": null,
+                    "name": "IVdsDiskPartitionMF",
                     "undocumented": false
                 },
                 {
                     "uuid": "75C8F324-F715-4FE3-A28E-F9011B61A4A1",
-                    "name": null,
+                    "name": "IVdsOpenVDisk",
                     "undocumented": false
                 },
                 {
                     "uuid": "90681B1D-6A7F-48E8-9061-31B7AA125322",
-                    "name": null,
+                    "name": "IVdsDiskOnline",
                     "undocumented": false
                 },
                 {
                     "uuid": "9882F547-CFC3-420B-9750-00DFBEC50662",
-                    "name": null,
+                    "name": "IVdsCreatePartitionEx",
                     "undocumented": false
                 },
                 {
                     "uuid": "83BFB87F-43FB-4903-BAA6-127F01029EEC",
-                    "name": null,
+                    "name": "IVdsSubSystemImportTarget",
                     "undocumented": false
                 },
                 {
                     "uuid": "EE2D5DED-6236-4169-931D-B9778CE03DC6",
-                    "name": null,
+                    "name": "IVdsVolumeMF",
                     "undocumented": false
                 },
                 {
                     "uuid": "9723F420-9355-42DE-AB66-E31BB15BEEAC",
-                    "name": null,
+                    "name": "IVdsAdvancedDisk2",
                     "undocumented": false
                 },
                 {
                     "uuid": "4AFC3636-DB01-4052-80C3-03BBCB8D3C69",
-                    "name": null,
+                    "name": "IVdsServiceInitialization",
                     "undocumented": false
                 },
                 {
                     "uuid": "D99BDAAE-B13A-4178-9FDB-E27F16B4603E",
-                    "name": null,
+                    "name": "IVdsHwProvider",
                     "undocumented": false
                 },
                 {
                     "uuid": "D68168C9-82A2-4F85-B6E9-74707C49A58F",
-                    "name": null,
+                    "name": "IVdsVolumeShrink",
                     "undocumented": false
                 },
                 {
                     "uuid": "13B50BFF-290A-47DD-8558-B7C58DB1A71A",
-                    "name": null,
+                    "name": "IVdsPack2",
                     "undocumented": false
                 },
                 {
                     "uuid": "6E6F6B40-977C-4069-BDDD-AC710059F8C0",
-                    "name": null,
+                    "name": "IVdsAdvancedDisk",
                     "undocumented": false
                 },
                 {
                     "uuid": "9AA58360-CE33-4F92-B658-ED24B14425B8",
-                    "name": null,
+                    "name": "IVdsSwProvider",
                     "undocumented": false
                 },
                 {
                     "uuid": "E0393303-90D4-4A97-AB71-E9B671EE2729",
-                    "name": null,
+                    "name": "IVdsServiceLoader",
                     "undocumented": false
                 },
                 {
                     "uuid": "07E5C822-F00C-47A1-8FCE-B244DA56FD06",
-                    "name": null,
+                    "name": "IVdsDisk",
                     "undocumented": false
                 },
                 {
                     "uuid": "8326CD1D-CF59-4936-B786-5EFC08798E25",
-                    "name": null,
+                    "name": "IVdsAdviseSink",
                     "undocumented": false
                 },
                 {
                     "uuid": "1BE2275A-B315-4F70-9E44-879B3A2A53F2",
-                    "name": null,
+                    "name": "IVdsVolumeOnline",
                     "undocumented": false
                 },
                 {
                     "uuid": "0316560B-5DB4-4ED9-BBB5-213436DDC0D9",
-                    "name": null,
+                    "name": "IVdsRemovable",
                     "undocumented": false
                 },
                 {
                     "uuid": "14FBE036-3ED7-4E10-90E9-A5FF991AFF01",
-                    "name": null,
+                    "name": "IVdsServiceIscsi",
                     "undocumented": false
                 },
                 {
                     "uuid": "3B69D7F5-9D94-4648-91CA-79939BA263BF",
-                    "name": null,
+                    "name": "IVdsPack",
                     "undocumented": false
                 },
                 {
                     "uuid": "D5D23B6D-5A55-4492-9889-397A3C2D2DBC",
-                    "name": null,
+                    "name": "IVdsAsync",
                     "undocumented": false
                 },
                 {
                     "uuid": "88306BB2-E71F-478C-86A2-79DA200A0F11",
-                    "name": null,
+                    "name": "IVdsVolume",
                     "undocumented": false
                 },
                 {
                     "uuid": "118610B7-8D94-4030-B5B8-500889788E4E",
-                    "name": null,
+                    "name": "IEnumVdsObject",
                     "undocumented": false
                 },
                 {
                     "uuid": "0AC13689-3134-47C6-A17C-4669216801BE",
-                    "name": null,
+                    "name": "IVdsServiceHba",
                     "undocumented": false
                 },
                 {
                     "uuid": "0818A8EF-9BA9-40D8-A6F9-E22833CC771E",
-                    "name": null,
+                    "name": "IVdsService",
                     "undocumented": false
                 },
                 {
                     "uuid": "6788FAF9-214E-4B85-BA59-266953616E09",
-                    "name": null,
+                    "name": "IVdsVolumeMF3",
                     "undocumented": false
                 },
                 {
                     "uuid": "B481498C-8354-45F9-84A0-0BDD2832A91F",
-                    "name": null,
+                    "name": "IVdsVdProvider",
                     "undocumented": false
                 },
                 {
                     "uuid": "10C5E575-7984-4E81-A56B-431F5F92AE42",
-                    "name": null,
+                    "name": "IVdsProvider",
                     "undocumented": false
                 },
                 {
                     "uuid": "38A0A9AB-7CC8-4693-AC07-1F28BD03C3DA",
-                    "name": null,
+                    "name": "IVdsIscsiInitiatorPortal",
                     "undocumented": false
                 }
             ],
